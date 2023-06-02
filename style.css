@@ -1,71 +1,19 @@
-                                                            /** COMPONENTES DE TEXTO**/
 
-body {
-    font-family: AmaticSC;
-}
-
-/**Color Cuerpo Menu**/
-.menu {
-    list-style: none;
-    padding: 2;
-    width: 30.6%;
-    margin: auto;
-    position: absolute;
-    left: 33%;
-    top: 1%;
-}
-
-/**Menu color Letra**/
-.menu li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 3px;
-    display:block;
-}
-
-/**Codigo Texto forma Horizontal texto centrado**/
-.menu li {
-    display: inline-block;
-}
-
-/**Color pulsasion**/
-.menu li a:hover {
-    background:linear-gradient(#ffc400, #f700ff) 
-}
-
-/**COLOR FONDO Y PERSONALIZACION**/
+                                /**COLOR FONDO Y PERSONALIZACION**/
 body {
     background: black;
 }
-
-/** Edicion Imagen central Monster**/
+                                /** Edicion Imagen central Monster**/
 .fototitulo{
-/** BORDE SOLIDO **/    
-    border: solid;
 /**BORDE INDIVIDUAL POR LADO**/
-    border-right: orange solid;
-    border-bottom: #00c828 solid;
-    border-left: #ff00aa solid;
-    border-top: #179cb7 solid;
     position: absolute;
-    left: 27.5%;
-    top: 12%;
-    width: 45%;
+    left: 0px;
+    top: 0%;
+    width: 1349.4px;
+    height: 150px;
 }
-/**Texto Martin Firma**/
-.firma{
-    color: rgb(255, 255, 255);
-    border-color: #ffffff;
-    border: solid;
-    font-family:AmaticSC;
-    font-size: 8px;
-    overflow-wrap: break-word;
-    text-align: center;
-    width: 15%;
-    position: absolute;
-    top: 2%;
-    left: 0.5%;
-}
+
+/** MENU PRINCIPAL **/
 
 /**Texto definicion Monster**/
 .definicion{
@@ -107,17 +55,18 @@ body {
     left: 35%;
     top: 173%;
 }
-.logomonster{
+.logomonstertitulo{
     position: absolute;
-    width: 20%;
-    left: 4%;
-    top: 9%;
+    width: 400px;
+    left: 2%;
+    top: 5%;
 }
 .logomonster2{
     position: absolute;
-    width: 20%;
-    left: 77%;
-    top: 9%;
+    width: 180px;
+    height: 80px;
+    left: 1160px;
+    top: 10px;
 }
 
 
@@ -127,7 +76,7 @@ body {
 .mons1 {
     position: absolute;
     left: 5%;
-    top: 43%;
+    top: 40%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -135,14 +84,14 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons1:hover {
-    transform: scale(2.0);
+    transform: scale(1.4);
     transition: 0.5s;
 }
 
 .mons2 {
     position: absolute;
     left: 20%;
-    top: 43%;
+    top: 40%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -151,14 +100,14 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons2:hover{
-    transform: scale(2.0);
+    transform: scale(1.4);
     transition: 0.5s;
 }
 
 .mons3 {
     position: absolute;
     left: 33%;
-    top: 43%;
+    top: 40%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -167,14 +116,14 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons3:hover {
-    transform: scale(2.0);
+    transform: scale(1.4);
     transition: 0.5s;
 }
 
 .mons4 {
     position: absolute;
     left: 46%;
-    top: 43%;
+    top: 40%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -183,14 +132,14 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons4:hover {
-    transform: scale(2.0);
+    transform: scale(1.4);
     transition: 0.5s;
 }
 
 .mons5 {
     position: absolute;
     left: 60%;
-    top: 43%;
+    top: 40%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -199,14 +148,14 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons5:hover {
-    transform: scale(2.0);
+    transform: scale(1.4);
     transition: 0.5s;
 }
 
 .mons6 {
     position: absolute;
     left:75%;
-    top: 43%;
+    top: 40%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -215,13 +164,13 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons6:hover {
-    transform: scale(2.0);
+    transform: scale(1.4);
     transition: 0.5s;
 }
 .mons7 {
     position: absolute;
     left: 90%;
-    top: 43%;
+    top: 40%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -230,7 +179,7 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons7:hover {
-    transform: scale(2.0);
+    transform: scale(1.4);
     transition: 0.5s;
 }
 
@@ -264,57 +213,12 @@ body {
 
 /** BARRA MOSNTER**/
 
-.monsterrep1{
-    position: absolute;
-    left: 0%;
-    top: 89%;
-    width: 17%;
-    height: 14%;
-    border-top: #00c828 solid;
-    border-bottom: #00c828 solid;
-}
-.monsterrep2{
-    position: absolute;
-    left: 17%;
-    top: 89%;
-    width: 17%;
-    height: 14%;
-    border-top: #00c828 solid;
-    border-bottom: #00c828 solid;
-}
-.monsterrep3{
-    position: absolute;
-    left: 34%;
-    top: 89%;
-    width: 17%;
-    height: 14%;
-    border-top: #00c828 solid;
-    border-bottom: #00c828 solid;
-}
-.monsterrep4{
-    position: absolute;
-    left: 51%;
-    top: 89%;
-    width: 17%;
-    height: 14%;
-    border-top: #00c828 solid;
-    border-bottom: #00c828 solid;
-}
-.monsterrep5{
-    position: absolute;
-    left: 67%;
-    top: 89%;
-    width: 17%;
-    height: 14%;
-    border-top: #00c828 solid;
-    border-bottom: #00c828 solid;
-}
-.monsterrep6{
-    position: absolute;
-    left:82.9%;
-    top: 89%;
-    width: 17%;
-    height: 14%;
-    border-top: #00c828 solid;
-    border-bottom: #00c828 solid;
+.barra{
+    border: solid white;
+    width: 100px;
+    height: 60px;
+    background-image: url(Imagenes/fondomarco.jpg);
+    position: relative;
+    top: 320px;
+    width: 1334px;
 }
