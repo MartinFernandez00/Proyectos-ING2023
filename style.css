@@ -1,19 +1,71 @@
+                                                            /** COMPONENTES DE TEXTO**/
 
-                                /**COLOR FONDO Y PERSONALIZACION**/
+body {
+    font-family: Bungee;
+}
+
+/**Color Cuerpo Menu**/
+.menu {
+    list-style: none;
+    padding: 2;
+    width: 30.6%;
+    margin: auto;
+    position: absolute;
+    left: 33%;
+    top: 1%;
+}
+
+/**Menu color Letra**/
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    display:block;
+}
+
+/**Codigo Texto forma Horizontal texto centrado**/
+.menu li {
+    display: inline-block;
+}
+
+/**Color pulsasion**/
+.menu li a:hover {
+    background:linear-gradient(#ffc400, #f700ff) 
+}
+
+/**COLOR FONDO Y PERSONALIZACION**/
 body {
     background: black;
 }
-                                /** Edicion Imagen central Monster**/
-.fototitulo{
-/**BORDE INDIVIDUAL POR LADO**/
-    position: absolute;
-    left: 0px;
-    top: 0%;
-    width: 1349.4px;
-    height: 200px;
-}
 
-/** MENU PRINCIPAL **/
+/** Edicion Imagen central Monster**/
+.fototitulo{
+/** BORDE SOLIDO **/    
+    border: solid;
+/**BORDE INDIVIDUAL POR LADO**/
+    border-right: orange solid;
+    border-bottom: #00c828 solid;
+    border-left: #ff00aa solid;
+    border-top: #179cb7 solid;
+    position: absolute;
+    left: 27.5%;
+    top: 12%;
+    width: 45%;
+}
+/**Texto Martin Firma**/
+.firma{
+    color: rgb(255, 255, 255);
+    border-color: #ffffff;
+    border: solid;
+    font-family:AmaticSC;
+    font-size: 8px;
+    overflow-wrap: break-word;
+    text-align: center;
+    width: 15%;
+    position: absolute;
+    top: 2%;
+    left: 0.5%;
+}
 
 /**Texto definicion Monster**/
 .definicion{
@@ -55,18 +107,17 @@ body {
     left: 35%;
     top: 173%;
 }
-.logomonstertitulo{
+.logomonster{
     position: absolute;
-    width: 500px;
-    left: 2%;
-    top: 5%;
+    width: 20%;
+    left: 4%;
+    top: 9%;
 }
 .logomonster2{
     position: absolute;
-    width: 230px;
-    height: 100px;
-    left: 1100px;
-    top: 10px;
+    width: 20%;
+    left: 77%;
+    top: 9%;
 }
 
 
@@ -76,7 +127,7 @@ body {
 .mons1 {
     position: absolute;
     left: 5%;
-    top: 50%;
+    top: 43%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -84,14 +135,14 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons1:hover {
-    transform: scale(1.4);
+    transform: scale(2.0);
     transition: 0.5s;
 }
 
 .mons2 {
     position: absolute;
     left: 20%;
-    top: 50%;
+    top: 43%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -100,14 +151,14 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons2:hover{
-    transform: scale(1.4);
+    transform: scale(2.0);
     transition: 0.5s;
 }
 
 .mons3 {
     position: absolute;
     left: 33%;
-    top: 50%;
+    top: 43%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -116,14 +167,14 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons3:hover {
-    transform: scale(1.4);
+    transform: scale(2.0);
     transition: 0.5s;
 }
 
 .mons4 {
     position: absolute;
     left: 46%;
-    top: 50%;
+    top: 43%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -132,14 +183,14 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons4:hover {
-    transform: scale(1.4);
+    transform: scale(2.0);
     transition: 0.5s;
 }
 
 .mons5 {
     position: absolute;
     left: 60%;
-    top: 50%;
+    top: 43%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -148,14 +199,14 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons5:hover {
-    transform: scale(1.4);
+    transform: scale(2.0);
     transition: 0.5s;
 }
 
 .mons6 {
     position: absolute;
     left:75%;
-    top: 50%;
+    top: 43%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -164,13 +215,13 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons6:hover {
-    transform: scale(1.4);
+    transform: scale(2.0);
     transition: 0.5s;
 }
 .mons7 {
     position: absolute;
     left: 90%;
-    top: 50%;
+    top: 43%;
     height: 27%;
     width: 6%;
     cursor: pointer;
@@ -179,7 +230,7 @@ body {
 
 /**TRANSICION ZOOM IMAGEN**/
 .mons7:hover {
-    transform: scale(1.4);
+    transform: scale(2.0);
     transition: 0.5s;
 }
 
@@ -213,74 +264,57 @@ body {
 
 /** BARRA MOSNTER**/
 
-.barra{
-    border: solid white;
-    border-radius: 20px;
-    width: 100px;
-    height: 140px;
-    background-color: black;
+.monsterrep1{
     position: absolute;
-    top: 355px;
-    width: 1325px;
+    left: 0%;
+    top: 89%;
+    width: 17%;
+    height: 14%;
+    border-top: #00c828 solid;
+    border-bottom: #00c828 solid;
 }
-
-/** Menu Inicio **/
-body{
-    width: 1330px;
-    height: 20px;
-    background-color: rgb(0, 0, 0);
-    flex-direction: column;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-}
-
-/** Tipo de Letra **/
-
-p{
-    font-family: Pacifico;
-}
-
-div{
-    font-family: Bungee;
-}
-
-button{
-    font-family: pacifico;
-}
-
-/** Posicionamineto **/
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: px;
-    margin-bottom: px;
+.monsterrep2{
     position: absolute;
-    top: 200px;
-    left: 340px;
-    border-radius: px;
+    left: 17%;
+    top: 89%;
+    width: 17%;
+    height: 14%;
+    border-top: #00c828 solid;
+    border-bottom: #00c828 solid;
 }
-
-li{
-    display: inline-block;
-    padding: 12px 12px;
-    cursor: pointer;
+.monsterrep3{
+    position: absolute;
+    left: 34%;
+    top: 89%;
+    width: 17%;
+    height: 14%;
+    border-top: #00c828 solid;
+    border-bottom: #00c828 solid;
 }
-
-li:hover {
-    border-top: solid rgb(0, 255, 0);
+.monsterrep4{
+    position: absolute;
+    left: 51%;
+    top: 89%;
+    width: 17%;
+    height: 14%;
+    border-top: #00c828 solid;
+    border-bottom: #00c828 solid;
 }
-
-button{
-    padding: 1px 1px;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
-    border-radius: 20px;
-    border: none;
-    transition:all 0.3s ease;
+.monsterrep5{
+    position: absolute;
+    left: 67%;
+    top: 89%;
+    width: 17%;
+    height: 14%;
+    border-top: #00c828 solid;
+    border-bottom: #00c828 solid;
 }
-
-button:hover{
-    background-color: rgb(0, 136,169.08);
+.monsterrep6{
+    position: absolute;
+    left:82.9%;
+    top: 89%;
+    width: 17%;
+    height: 14%;
+    border-top: #00c828 solid;
+    border-bottom: #00c828 solid;
 }
